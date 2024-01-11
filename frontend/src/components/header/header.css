@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.header__logo > h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.header__buttons > button {
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  min-width: 150px;
+  cursor: pointer;
+}
